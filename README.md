@@ -28,7 +28,7 @@ require 'wikimapia-geometries'
 
 config = {
     :key => 'my_wikimapia_key',
-    :tag_or => '4621,45057' #some category tags (UNION)
+    :tags_or => '4621,45057' #some category tags (UNION)
     :format =>'json',
     :results_per_page => 100,
     :lat => ENV['LAT'].to_f || -34.6096717,
